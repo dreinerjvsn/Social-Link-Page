@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --pr-color: hsl(0, 0%, 12%);
+    --sc-color: hsl(0, 0%, 20%); 
+    --txt-color: hsl(75, 94%, 57%);
+    --inter-font: 'Inter', sans-serif;
+}
+body{
+    background-color: black;
+    width: 1440px;
+    height: 900px;
+}
+.container{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 540px;
+    width: 360px;
+    height: 560px;
+    border-radius: 10px;
+    background-color: var(--pr-color);
+    font-family: var(--inter-font);
+}
+img{
+    margin-left: 25%;
+    scale: 0.5;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.namepf{
+    margin-top: -10px;
+    margin-left: 30%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.location{
+    margin-top: -10px;
+    margin-left: 34%;
+    color: var(--txt-color);
+    align-items: center;
+    font-size: 0.65rem;
+}
+.bottompf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description{
+    color:#fff;
+    font-size: 0.8rem;
+}
+.slinks{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--inter-font);
+    font-weight: 600;
+}
+
+* span{
+    font-size: 0.75rem;
+}
+
+* a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--sc-color);
+    border-radius: 10px;
+}
+
+* a:hover{
+    transition: 0.2s ease-in-out;
+    background-color: var(--txt-color);
+    color: var(--sc-color);
+}
+
+#gth{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+#fem{
+    padding-right: 92px;
+    padding-left: 92px;
+}
+#lkd{
+    padding-right: 115px;
+    padding-left: 115px;
+}
+#twt{
+    padding-right: 118px;
+    padding-left: 118px;
+}
+#ing{
+    padding-right: 110px;
+    padding-left: 110px;
+}
